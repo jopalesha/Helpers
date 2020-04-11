@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Jopalesha.Helpers</AssemblyName>
+    <RootNamespace>Jopalesha.Helpers</RootNamespace>
+    <Authors>Jopalesha</Authors>
+    <PackageDescription>Assertion helpers library</PackageDescription>
+    <RepositoryUrl>https://github.com/jopalesha/Helpers</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/jopalesha/Helpers</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0</Version>
+    <PackageId>Jopalesha.Helpers</PackageId>
+    <Product>Jopalesha.Helpers</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CheckWhenDoIt" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
